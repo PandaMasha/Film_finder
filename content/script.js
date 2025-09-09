@@ -1,10 +1,4 @@
-const apiKey = process.env.APIKEY;
-if (mySecret) {
-  console.log("Secret accessed successfully!");
-  // Use mySecret for sensitive operations
-} else {
-  console.error("Secret not found!");
-}
+const apiKey = {{ secrets.APIKEY }};
 const tmdbBaseUrl = "https://api.themoviedb.org/3";
 const playBtn = document.getElementById("playBtn");
 let cachedGenres = null;
