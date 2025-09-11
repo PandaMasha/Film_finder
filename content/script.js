@@ -1,4 +1,4 @@
-const apiKey = secrets.<APIKEY>;
+const tmdbKey = "secrets.<APIKEY>";
 const tmdbBaseUrl = "https://api.themoviedb.org/3";
 const playBtn = document.getElementById("playBtn");
 let cachedGenres = null;
